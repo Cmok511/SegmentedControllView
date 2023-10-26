@@ -11,7 +11,8 @@
 		6F84413F2AEB0C3E004D643A /* SegmentedControllView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8441342AEB0C3E004D643A /* SegmentedControllView.framework */; };
 		6F8441442AEB0C3E004D643A /* SegmentedControllViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8441432AEB0C3E004D643A /* SegmentedControllViewTests.swift */; };
 		6F8441452AEB0C3E004D643A /* SegmentedControllView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8441372AEB0C3E004D643A /* SegmentedControllView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F8441972AEB1334004D643A /* SegmentedControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8441962AEB1334004D643A /* SegmentedControlView.swift */; };
+		6FCA3DC22AEB19AF00A4640F /* SegmentedControllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA3DC12AEB19AF00A4640F /* SegmentedControllView.swift */; };
+		6FCA3DC32AEB19AF00A4640F /* SegmentedControllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCA3DC12AEB19AF00A4640F /* SegmentedControllView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,7 @@
 		6F8441382AEB0C3E004D643A /* SegmentedControllView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SegmentedControllView.docc; sourceTree = "<group>"; };
 		6F84413E2AEB0C3E004D643A /* SegmentedControllViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentedControllViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8441432AEB0C3E004D643A /* SegmentedControllViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControllViewTests.swift; sourceTree = "<group>"; };
-		6F8441962AEB1334004D643A /* SegmentedControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControlView.swift; sourceTree = "<group>"; };
+		6FCA3DC12AEB19AF00A4640F /* SegmentedControllView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedControllView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				6F8441372AEB0C3E004D643A /* SegmentedControllView.h */,
-				6F8441962AEB1334004D643A /* SegmentedControlView.swift */,
+				6FCA3DC12AEB19AF00A4640F /* SegmentedControllView.swift */,
 				6F8441382AEB0C3E004D643A /* SegmentedControllView.docc */,
 			);
 			path = SegmentedControllView;
@@ -197,7 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8441972AEB1334004D643A /* SegmentedControlView.swift in Sources */,
+				6FCA3DC22AEB19AF00A4640F /* SegmentedControllView.swift in Sources */,
 				6F8441392AEB0C3E004D643A /* SegmentedControllView.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCA3DC32AEB19AF00A4640F /* SegmentedControllView.swift in Sources */,
 				6F8441442AEB0C3E004D643A /* SegmentedControllViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
