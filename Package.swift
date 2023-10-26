@@ -6,9 +6,6 @@ let package = Package(
     platforms: [
         .iOS(.v15)
     ],
-    dependencies: [
-        .package(url: "https://github.com/Cmok511/SegmentedControllView.git", from: "1.0.0")
-    ],
     targets: [
         .target(
             name: "SegmentedControlView",
