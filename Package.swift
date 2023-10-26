@@ -6,10 +6,17 @@ let package = Package(
     platforms: [
         .iOS(.v15)
     ],
+    products: [
+        .library(
+            name: "SegmentedControlView",
+            targets: ["SegmentedControlView"]
+        )
+    ],
     targets: [
         .target(
             name: "SegmentedControlView",
-            dependencies: ["SegmentedControlView"]
+            path: "Sources"
         )
     ]
 )
+
