@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .target(
             name: "SegmentedControlView",
-            path: "SegmentedControllView.swift"
+            path: "Sources"
         )
     ]
 )
